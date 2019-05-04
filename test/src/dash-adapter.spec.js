@@ -1,17 +1,17 @@
-import loadPlayer from '@playkit-js/playkit-js';
+import loadPlayer from '@pakhshkit-js/pakhshkit-js';
 import DashAdapter from '../../src';
 import * as TestUtils from './utils/test-utils';
-import {VideoTrack, AudioTrack, TextTrack} from '@playkit-js/playkit-js';
+import {VideoTrack, AudioTrack, TextTrack} from '@pakhshkit-js/pakhshkit-js';
 import Widevine from '../../src/drm/widevine';
 import PlayReady from '../../src/drm/playready';
-import {EventType} from '@playkit-js/playkit-js';
+import {EventType} from '@pakhshkit-js/pakhshkit-js';
 
 const targetId = 'player-placeholder_dash-adapter.spec';
 
 let vodSource = {
   mimetype: 'application/dash+xml',
   url:
-    'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd'
+    'https://qa-apache-php7.dev.vidiun.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd'
 };
 
 let liveSource = {
@@ -21,7 +21,7 @@ let liveSource = {
 
 let dvrSource = {
   mimetype: 'application/dash+xml',
-  url: 'http://klive-a.akamaihd.net/dc-1/live/dash/p/1897241/e/1_gffgxm38/t/e83cor13pmTGTQ7kPZiopg/manifest.mpd'
+  url: 'http://vlive-a.akamaihd.net/dc-1/live/dash/p/1897241/e/1_gffgxm38/t/e83cor13pmTGTQ7kPZiopg/manifest.mpd'
 };
 
 describe.skip('DashAdapter [debugging and testing manually]', () => {
