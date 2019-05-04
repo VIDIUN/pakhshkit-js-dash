@@ -18,11 +18,11 @@ if (PROD) {
 
 module.exports = {
   context: __dirname + '/src',
-  entry: {'playkit-dash': 'index.js'},
+  entry: {'pakhshkit-dash': 'index.js'},
   output: {
     path: __dirname + '/dist',
     filename: '[name].js',
-    library: ['playkit', 'dash'],
+    library: ['pakhshkit', 'dash'],
     libraryTarget: 'umd',
     umdNamedDefine: true,
     devtoolModuleFilenameTemplate: './dash/[resource-path]'
@@ -64,11 +64,11 @@ module.exports = {
     modules: [path.resolve(__dirname, 'src'), 'node_modules']
   },
   externals: {
-    '@playkit-js/playkit-js': {
-      commonjs: '@playkit-js/playkit-js',
-      commonjs2: '@playkit-js/playkit-js',
-      amd: 'playkit-js',
-      root: ['playkit', 'core']
+    '@pakhshkit-js/pakhshkit-js': {
+      commonjs: '@pakhshkit-js/pakhshkit-js',
+      commonjs2: '@pakhshkit-js/pakhshkit-js',
+      amd: 'pakhshkit-js',
+      root: ['pakhshkit', 'core']
     },
     'shaka-player': {
       commonjs: 'shaka-player',
