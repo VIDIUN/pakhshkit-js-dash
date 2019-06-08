@@ -1,5 +1,5 @@
 import PlayReady from '../../../src/drm/playready'
-import {BaseDrmProtocol, Env} from 'playkit-js'
+import {BaseDrmProtocol, Env} from 'pakhshkit-js'
 import {wwDrmData, prDrmData} from './fake-drm-data'
 
 const DrmSupport = BaseDrmProtocol.DrmSupport;

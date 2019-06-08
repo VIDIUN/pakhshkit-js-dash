@@ -1,4 +1,4 @@
-import {BaseDrmProtocol} from 'playkit-js'
+import {BaseDrmProtocol} from 'pakhshkit-js'
 
 export const wwDrmData = [{
   licenseUrl: 'LICENSE_URL',

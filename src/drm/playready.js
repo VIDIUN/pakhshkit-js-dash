@@ -1,5 +1,5 @@
 // @flow
-import {BaseDrmProtocol} from 'playkit-js'
+import {BaseDrmProtocol} from 'pakhshkit-js'
 
 const DrmSupport = BaseDrmProtocol.DrmSupport;
 const DrmScheme = BaseDrmProtocol.DrmScheme;

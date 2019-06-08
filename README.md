@@ -1,10 +1,10 @@
-# PlayKit JS DASH - [Shaka Player] Adapter for the [PlayKit JS Player]
+# PakhshKit JS DASH - [Shaka Player] Adapter for the [PakhshKit JS Player]
 
-[![Build Status](https://travis-ci.org/kaltura/playkit-js-dash.svg?branch=master)](https://travis-ci.org/kaltura/playkit-js-dash)
+[![Build Status](https://travis-ci.org/vidiun/pakhshkit-js-dash.svg?branch=master)](https://travis-ci.org/vidiun/pakhshkit-js-dash)
 
-PlayKit JS DASH adapter integrates [Shaka Player] with the [PlayKit JS Player].
+PakhshKit JS DASH adapter integrates [Shaka Player] with the [PakhshKit JS Player].
  
-PlayKit JS DASH is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
+PakhshKit JS DASH is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
 
 [Shaka Player]: https://github.com/google/shaka-player
 [Shaka Player API docs]: https://shaka-player-demo.appspot.com/docs/api/index.html
@@ -15,11 +15,11 @@ PlayKit JS DASH is written in [ECMAScript6], statically analysed using [Flow] an
 ## Getting Started
 
 ### Prerequisites
-The adapter requires [PlayKit JS Player] to be loaded first.
+The adapter requires [PakhshKit JS Player] to be loaded first.
 
 The adapter uses the [Shaka Player] javascript library.
 
-[Playkit JS Player]: https://github.com/kaltura/playkit-js
+[Pakhshkit JS Player]: https://github.com/vidiun/pakhshkit-js
 
 ### Installing
 
@@ -28,8 +28,8 @@ First, clone and run [yarn] to install dependencies:
 [yarn]: https://yarnpkg.com/lang/en/
 
 ```
-git clone https://github.com/kaltura/playkit-js-dash.git
-cd playkit-js-dash
+git clone https://github.com/vidiun/pakhshkit-js-dash.git
+cd pakhshkit-js-dash
 yarn install
 ```
 
@@ -46,13 +46,13 @@ yarn run build
 Finally, add the bundle as a script tag in your page, and initialize the player
 
 ```html
-<script type="text/javascript" src="/PATH/TO/FILE/playkit.js"></script>
-<script type="text/javascript" src="/PATH/TO/FILE/playkit-dash.js"></script>
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit.js"></script>
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit-dash.js"></script>
 <div id="player-placeholder" style="height:360px; width:640px">
 <script type="text/javascript">
 var playerContainer = document.querySelector("#player-placeholder");
 var config = {...};
-var player = playkit.core.loadPlayer(config);
+var player = pakhshkit.core.loadPlayer(config);
 playerContainer.appendChild(player.getView());
 player.play();
 </script>
@@ -60,7 +60,7 @@ player.play();
 
 ## Configuration
 
-[Shaka Player] configuration options, documented @[Shaka Player API docs], can be passed via the [PlayKit JS Player] config.
+[Shaka Player] configuration options, documented @[Shaka Player API docs], can be passed via the [PakhshKit JS Player] config.
 
 The configuration is exposed via the playback section:
 
@@ -113,7 +113,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kaltura/playkit-js-dash/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vidiun/pakhshkit-js-dash/tags). 
 
 ## License
 
