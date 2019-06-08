@@ -1,8 +1,8 @@
 {
-  "name": "playkit-js-dash",
+  "name": "pakhshkit-js-dash",
   "version": "1.6.2",
   "description": "",
-  "main": "dist/playkit-dash.js",
+  "main": "dist/pakhshkit-dash.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -53,8 +53,8 @@
     "karma-webpack": "^2.0.2",
     "mocha": "^3.2.0",
     "mocha-cli": "^1.0.1",
-    "playkit-js": "https://github.com/kaltura/playkit-js.git#v0.27.1",
-    "shaka-player": "https://github.com/kaltura/shaka-player.git#v2.3.3-k-3",
+    "pakhshkit-js": "https://github.com/vidiun/pakhshkit-js.git#v0.27.1",
+    "shaka-player": "https://github.com/vidiun/shaka-player.git#v2.3.3-k-3",
     "sinon": "^2.0.0",
     "sinon-chai": "^2.8.0",
     "standard-version": "^4.0.0",
@@ -65,15 +65,15 @@
   "keywords": [],
   "license": "AGPL-3.0",
   "peerDependencies": {
-    "playkit-js": "https://github.com/kaltura/playkit-js.git#v0.27.1",
-    "shaka-player": "https://github.com/kaltura/shaka-player.git#v2.3.3-k-3"
+    "pakhshkit-js": "https://github.com/vidiun/pakhshkit-js.git#v0.27.1",
+    "shaka-player": "https://github.com/vidiun/shaka-player.git#v2.3.3-k-3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-dash.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-dash.git"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-dash/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-dash/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-dash#readme"
+  "homepage": "https://github.com/vidiun/pakhshkit-js-dash#readme"
 }

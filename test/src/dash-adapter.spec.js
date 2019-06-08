@@ -1,10 +1,10 @@
-import loadPlayer from 'playkit-js'
+import loadPlayer from 'pakhshkit-js'
 import DashAdapter from '../../src';
-import * as TestUtils from 'playkit-js/test/src/utils/test-utils'
-import {VideoTrack, AudioTrack, TextTrack} from 'playkit-js';
+import * as TestUtils from 'pakhshkit-js/test/src/utils/test-utils'
+import {VideoTrack, AudioTrack, TextTrack} from 'pakhshkit-js';
 import Widevine from '../../src/drm/widevine'
 import PlayReady from '../../src/drm/playready'
-import {EventType} from 'playkit-js'
+import {EventType} from 'pakhshkit-js'
 
 const targetId = 'player-placeholder_dash-adapter.spec';
 
@@ -20,7 +20,7 @@ let liveSource = {
 
 let dvrSource = {
   mimetype: "application/dash+xml",
-  url: "http://klive-a.akamaihd.net/dc-1/live/dash/p/1897241/e/1_gffgxm38/t/e83cor13pmTGTQ7kPZiopg/manifest.mpd"
+  url: "http://vlive-a.akamaihd.net/dc-1/live/dash/p/1897241/e/1_gffgxm38/t/e83cor13pmTGTQ7kPZiopg/manifest.mpd"
 };
 
 describe.skip('DashAdapter [debugging and testing manually]', () => {
